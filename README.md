@@ -4,6 +4,8 @@
 
 This project is a fully functional e-commerce application built using React and Vite. It leverages modern web technologies to provide a seamless shopping experience with features such as product browsing, detailed product views, a shopping cart, and checkout functionality.
 
+<h3><a href="https://e-commerce-app-redux-beta.vercel.app/">View E-commerce Application-Redux</a></h3>
+
 ## Table of Contents
 
 - [Features](#features)
@@ -134,5 +136,9 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## API
+
+The application uses the [Fake Store API](https://fakestoreapi.com) to fetch product data. This API provides a simple and easy-to-use interface for retrieving product listings, including details such as titles, descriptions, prices, and images. The API is integrated using Axios, which handles HTTP requests and responses efficiently. The configuration for the API can be found in the `src/services/config.js` file, where the base URL is set, and response interceptors are used to streamline the data handling process.
 
 
